@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+
+}
+/* Este inicia sin . porque es una etiqueta*/
+body{
+    background-image: linear-gradient(to right, #868f96 0%, #ffffff 100%);
+    font-family:'Century Gothic';
+    width: 99%;
+    margin: auto;
+}
+/* Este inicia con . debido a que es una clase*/
+.formulario{
+    width: 70%;
+    max-width: 40%;
+    margin: auto;
+    margin-top: 50px;
+     padding: 2px;
+     position: relative ;
+     box-shadow: 0 0 30px 1px rgb(0,0,0,0.3);
+     height: auto;
+}
+    h1{
+        text-align: center;
+        font-size: 10px;
+        font-family: arial;
+        margin-top: 70px;
+        text-shadow: 0px 0px 6px black;
+    }
+    .h1hover{
+        transform: scale(1.15);
+    
+    }
+
+.navbar-brand{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    transition: all 300ms;
+}
+.navbar-brand:hover{
+    transform: scale(1.15);
+
+}
+.container{
+    margin: 2px;
+    font-family:'arial';
+    width: 99%;
+    margin: auto;
+}
+.mt-5{
+    font-size: 35px;
+    color: rgb(24, 24, 24);
+    transition: all 300ms;
+    text-shadow: 0px 0px 6px black;
+}
+.mt-5:hover{
+    transform: scale(1.15);
+
+}
+.indice{
+    font-size: 20px;
+    color: rgb(24, 24, 24);
+    transition: all 300ms;
+    text-shadow: 0px 0px 6px rgb(81, 204, 253);
+}
+.indice{
+    transform: scale(1.15);
+}
+
+
+@media (max-width: 400px) {
+    .indice {
+      display: none;
+    }
+  }
+.nav-item{
+    font-size: 15px;
+}
+
+.navbar-brand{
+    font-size: 38px;
+    color: rgb(189, 22, 22);
+    transition: all 300ms;
+}
+.navbar-brand:hover{
+    transform: scale(1.15);
+
+}
+.nav-item{
+  font-size: 18px;
+}
+
+.imagenx img{
+   width: 55%;
+   height: auto;
+   
+}
+.imagenx:hover {filter: saturate(200%);}
+.ubicacion{
+    width: 100%;
+    height: 80px;
+
+}
+
+.ubicacion iframe{
+height: 400px;
+width: 500px;
+
+}
+.ubicacion{
+    display: block;
+    margin: -20px 30px;
+    margin: 0;
+}
+.ubicacion img{
+    width: 80%;
+    height: auto;
+    
+ }
+

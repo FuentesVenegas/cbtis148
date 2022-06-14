@@ -1,0 +1,344 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+*{margin: 0;padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;}
+  
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #000000;
+  }
+ 
+  /*letra del inicio(agrandación)*/
+  .navbar-brand{
+    font-size: 30px;
+    color: rgb(189, 22, 22);
+    transition: all 300ms;
+}
+.navbar-brand:hover{
+    transform: scale(1.15);
+
+}
+.nav-item{
+  font-size: 20px;
+}
+  
+
+
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 7rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position:center;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  h1{
+    font-size: 55px;
+    color: rgb(0, 0, 0);
+    transition: all 300ms;
+    
+}
+h1:hover{
+    transform: scale(1.15);
+}
+  .carousel-caption text-end.h1{
+    color: #fff;
+  }
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 2rem;
+    text-align: center;
+  
+   
+  }
+  .imagen{
+    width: 100%;
+    height: 32%;
+    border-radius: 100%;
+  }
+  
+  .marketing h2 {
+    font-weight: 400px;
+  }
+  h2{
+    font-size: 10px;
+    color: rgb(8, 8, 8);
+    transition: all 300ms;
+}
+h2:hover{
+    transform: scale(1.15);
+}
+  /* rtl:begin:ignore */
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+    
+  }
+  
+  .featurette-divider {
+    margin: 5rem 0; 
+  }
+  
+ 
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+  
+    letter-spacing: -.05rem;
+  }
+  
+  @media (min-width: 40em) {
+  
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  /*Diseño de vision,mision etc...*/
+  .primero img{
+    width:"140px"; 
+    height:"140px";
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.col-md-5 img{
+  width: 2%;
+  height: 0;
+  margin-left: 2px;
+  
+}
+.col-md-5 img:hover{-webkit-transform:scale(1.17);
+  transition: all 300ms;
+  transform: scale(1.17);}
+.col-md-5 img {overflow:hidden;
+  transition: all 300ms;}
+
+/*XDXDXDXDXXDX*/
+
+h2{
+  margin-top: 80px;
+    text-align: center;
+    font-size: 35px;
+    font-family: arial;
+    margin-top: 10px;
+    color: rgb(11, 15, 15);
+    text-shadow: 0px 0px 6px black;
+}
+
+.content-all{
+    width: 210px;
+    margin: auto;
+    perspective: 1000px;
+    position: relative;
+    margin-top: 50px;
+   
+}
+@media (min-width: 67%) {
+  .content-all {
+    margin-top: 10%;
+  }
+}
+.content-carrousel{
+    width: 100%;
+    position: absolute;
+    animation: rotar 10s infinite linear;
+    transform-style: preserve-3d;
+}
+
+.content-carrousel:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+
+.content-carrousel figure{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px black;
+    transition: all 300ms;
+    
+}
+
+.content-carrousel figure:hover{
+    box-shadow: 0px 0px 0px 0px black;
+    transition: all 300ms;
+}
+
+.content-carrousel figure:nth-child(1){transform: rotateY(0deg) translateZ(300px);}
+.content-carrousel figure:nth-child(2){transform: rotateY(40deg) translateZ(300px);}
+.content-carrousel figure:nth-child(3){transform: rotateY(80deg) translateZ(300px);}
+.content-carrousel figure:nth-child(4){transform: rotateY(120deg) translateZ(300px);}
+.content-carrousel figure:nth-child(5){transform: rotateY(160deg) translateZ(300px);}
+.content-carrousel figure:nth-child(6){transform: rotateY(200deg) translateZ(300px);}
+.content-carrousel figure:nth-child(7){transform: rotateY(240deg) translateZ(300px);}
+.content-carrousel figure:nth-child(8){transform: rotateY(280deg) translateZ(300px);}
+.content-carrousel figure:nth-child(9){transform: rotateY(320deg) translateZ(300px);}
+.content-carrousel figure:nth-child(10){transform: rotateY(360deg) translateZ(300px);}
+
+.content-carrousel img{
+    width: 100%;
+    transition: all 300ms;
+}
+
+.content-carrousel img:hover{
+    transform: scale(1.2);
+    transition: all 300ms;
+}
+
+
+@keyframes rotar{
+    from{
+        transform: rotateY(0deg);
+    }to{
+        transform: rotateY(360deg);
+    }
+}
+.boton3 {
+  color: #ac3e13 !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: rgba(0,0,0,0);
+  border: 2px solid;
+  border-color: #ac1616;
+  transition: all 1s ease;
+  position: relative;
+}
+.boton3:hover {
+  background: #ac1616;
+  color: #fff !important;
+}
+.btn btn-info{
+  color: #ac3e13 !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: rgba(0,0,0,0);
+  border: 2px solid;
+  border-color: #ac1616;
+  transition: all 1s ease;
+  position: relative;
+}
+.btn btn-info:hover{
+  background: #ac1616;
+  color: #fff !important;
+}
+/*botones de mision, vision etc*/
+.boton4 {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: #318aac;
+  border: 2px solid;
+  border-color: #318aac;
+  position: relative;
+  border-radius: 100px; 
+}
+.boton4:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
+}
+.boton6{
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: #0c6440;
+  border: 2px solid;
+  border-color: #0c6440;
+  position: relative;
+  border-radius: 100px; 
+}
+.boton6:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgb(43, 53, 56);
+  transition: all 0.2s ease;
+}
+/*boton para ingresar a las especialidades*/
+.ov-btn-slide-left {
+  background: #fff; /* color de fondo */
+  color: #2415a5; /* color de fuente */
+  border: 2px solid #2415a5; /* tamaño y color de borde */
+  padding: 0.3em 1.2em;
+  border-radius: 100px; /* redondear bordes */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  font-size: 20px;
+  }
+  .ov-btn-slide-left:hover {
+  color: #fff; /* color de fuente hover */
+  }
+  .ov-btn-slide-left::after {
+  content: "";
+  background: #2415a5; /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  }
+  .ov-btn-slide-left:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  }  
+  .lead{
+    margin-left: 56px;
+    font-size: 23px;
+    
+  }
+  .featurette-heading{
+    
+    margin-left: 56px;
+  }
+  
+  
